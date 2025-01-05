@@ -1,1 +1,1 @@
-# library
+This is a javascript exercise in making a library app.
