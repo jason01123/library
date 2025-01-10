@@ -1,3 +1,82 @@
 * {
-    color: red;
+    font-family: "Roboto", serif;
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+}
+
+body {
+    margin: 50px 50px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 15px;
+}
+
+.card {
+    padding: 15px;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content:start;
+    justify-items: center;
+    background-color: antiquewhite;
+}
+
+.card:hover {
+    background-color: rgb(249, 247, 245);
+}
+
+.title {
+    font-weight: bold;
+    
+}
+
+button {
+    margin-bottom: 15px;
+    padding: 11px 25px;
+    background-color: rgb(204, 153, 109);
+    border-style: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(208, 185, 164);
+}
+
+.close-button {
+    margin-top: 15px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input {
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.read {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items:center;
+    justify-content: start;
+}
+
+dialog {
+    border-radius: 8px;
 }
