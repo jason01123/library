@@ -1,13 +1,22 @@
 const library = [];
-
+/* 
 function Book(title, author, genre, pages, isRead) {
     this.title = title;
     this.author = author;
     this.genre = genre;
     this.pages = pages;
     this. isRead = isRead;
-}
+} */
 
+class Book {
+    constructor(title, author, genre, pages, isRead) {
+        this.title = title;
+        this.author = author;
+        this.genre = genre;
+        this.pages = pages;
+        this. isRead = isRead;
+    }
+}
 
 function addBook(title, author, genre, pages, isRead) {
     const newBook = new Book(title, author, genre, pages, isRead);
